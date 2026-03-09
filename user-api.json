@@ -1,0 +1,22 @@
+{
+  "operations": [
+    {
+      "name": "CreateUser",
+      "description": "Create a new user",
+      "inputs": [
+        "Username",
+        "Email",
+        "Password"
+      ],
+      "output": "User"
+    },
+    {
+      "name": "GetUser",
+      "description": "Retrieve a user by username",
+      "inputs": [
+        "Username"
+      ],
+      "output": "User"
+    }
+  ]
+}
