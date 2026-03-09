@@ -1,0 +1,26 @@
+{
+  "entity": "User",
+  "description": "Represents a system user",
+
+  "attributes": [
+    {
+      "name": "Username",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Email",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Password",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "CreatedDate",
+      "type": "DateTime"
+    }
+  ]
+}
